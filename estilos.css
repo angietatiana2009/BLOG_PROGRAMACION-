@@ -1,0 +1,208 @@
+
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color:#f4f6f9;
+margin:0;
+padding:0;
+}
+
+
+
+.encabezado{
+background:linear-gradient(90deg,#232121,#1b1b97);
+color:rgb(22, 22, 23);
+text-align:center;
+padding:25px;
+font-size:28px;
+}
+
+
+.menu{
+background-color:#2a5298;
+text-align:center;
+padding:15px;
+}
+
+.menu a{
+color:rgb(32, 30, 30);
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+font-size:18px;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#6a6236;
+}
+
+
+
+.contenido{
+width:80%;
+margin:auto;
+margin-top:30px;
+}
+
+.articulo{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
+h2{
+color:#1e3c72;
+border-bottom:3px solid #2a5298;
+padding-bottom:5px;
+}
+
+h3{
+color:#2a5298;
+}
+
+
+
+img{
+display:block;
+margin:auto;
+width:60%;
+border-radius:10px;
+margin-top:15px;
+margin-bottom:20px;
+}
+
+
+
+ul li{
+margin:8px;
+}
+
+ol li{
+margin:8px;
+}
+
+
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+font-size:16px;
+}
+
+caption{
+font-weight:bold;
+margin-bottom:10px;
+color:#1e3c72;
+font-size:18px;
+}
+
+thead{
+background-color:#2a5298;
+color:rgb(32, 30, 30);
+}
+
+thead th{
+padding:12px;
+}
+
+tbody tr:nth-child(even){
+background-color:#f2f2f2;
+}
+
+tbody tr:hover{
+background-color:#dfe9ff;
+}
+
+td{
+padding:10px;
+text-align:center;
+border:1px solid #ccc;
+}
+
+tfoot{
+background-color:#e8ecf8;
+font-weight:bold;
+}
+
+
+.pie{
+background:#1e3c72;
+color:rgb(252, 246, 246);
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+
+blockquote{
+background:#e8ecf8;
+border-left:5px solid #2a5298;
+padding:15px;
+margin:20px;
+font-style:italic;
+}
+
+/* TITULO CONTACTO */
+
+h1{
+text-align:center;
+color:#1e3c72;
+margin-top:20px;
+}
+
+/* CONTENEDOR CONTACTO */
+
+.main{
+width:60%;
+margin:auto;
+margin-top:30px;
+}
+
+/* FORMULARIO */
+
+form{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* CAMPOS */
+
+input, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* BOTON */
+
+input[type="submit"]{
+background:#2a5298;
+color:white;
+border:none;
+padding:10px;
+font-weight:bold;
+cursor:pointer;
+}
+
+input[type="submit"]:hover{
+background:#1e3c72;
+}
+
+/* IMAGEN MAS PEQUEÑA */
+
+img{
+display:block;
+margin:auto;
+width:30%;
+margin-bottom:20px;
+border-radius:10px;
+}
